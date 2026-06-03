@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.Zone.Identifier
+*:Zone.Identifier
+
+# Local generated thesis artifacts
+*.tmp
+*.bak
+*.log
+*.pdf
+*.docx
+*.pptx
+*.png.tmp
+~$*
+
+# Codex/local workspace noise
+.codex-write-test
+.claude/
+.playwright-mcp/
